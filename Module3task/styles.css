@@ -1,0 +1,27 @@
+.header-example {
+    font-size: 50px;
+    font-family: "gill sans extrabold", sans-serif;
+    color: blueviolet;
+}
+.color-example {
+        color: red;
+            background-color: #002BFF;  
+            border: solid; 
+            border-color: rgb(94, 183, 107);
+            border-width: 20px;
+}
+.list-example {
+    list-style-type: circle;
+    color: rgb(3, 151, 0);
+}
+.text-example {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.div-example {
+        background-color: rgb(249, 249, 65);
+        border: dotted;
+        border-color: aqua;
+}
