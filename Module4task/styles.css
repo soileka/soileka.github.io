@@ -1,0 +1,60 @@
+.image-example {
+    display: flex;
+    border-style:solid;
+    border-radius: 15%;
+    border-color: #A48AA7;
+    margin: auto;
+}
+
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  body {
+    background-color: #A5BD8C;
+  }
+.header-example {
+    border-style: outset;
+    border-color: #4F3552;
+    border-width: 5px;
+    text-align: center;
+        width: 700px;
+        height: 40px;
+    margin: auto;
+    margin-top: 30px;
+}
+.header-example2 {
+    border-style: dashed;
+    border-color: #4F3552;
+    border-width: 3px;
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.paragraph-element {
+    background-color: azure;
+        border: 3px solid #A48AA7;
+        border-radius: 8px;
+        text-align: center;
+        width: 220px;
+        height: 25px;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 5px;
+}
+.text-example {
+    text-align:center;
+    padding-top: 5px;
+}
+.progress-example {
+    text-align: center;
+    
+}
