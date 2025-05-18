@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta charset="utf-8">
+   <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Sivuston nimi</title> 
+<link rel="icon" type="image/x-icon" href="kissalogo.png">
+</head>
+<body>
+
+<div class="nav" id="mynav">
+          <a href="index.html"><img src="kissalogo.png" alt="logo" style="width:50px;height:50px;"></a>
+  <a href="index.html">Etusivu</a>
+  <a href="second.html">Kissaeläimiä</a>
+  <a href="third.html">Lintuja</a>
+  <a href="fourth.html">Apinoita</a>
+  <a href="fifth.html">FIFTH</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<h1>Otsikko</h1>
+
+<p>Tähän sisältöä, kuvia ja tekstiä</p>
+
+
+
+
+
+
+
+<footer>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/" target="_blank"><img src="Facebook_Logo_Primary.png" alt="facebookiin" style="width:40px;height:40px;"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/" target="_blank"><img src="Instagram_Glyph_Gradient.png" alt="instaramiin" style="width:40px;height:40px;"></a>
+    <div id="alatunniste">
+    &copy; 2025 Soile</div>
+</footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mynav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+</script>
+
+</body>
+</html>
