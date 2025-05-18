@@ -179,7 +179,7 @@ aside img {
 }
 
 /* Container for flexboxes */
-#section {
+.section {
   display: -webkit-flex;
   display: flex;
 }
