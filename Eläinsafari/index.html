@@ -77,9 +77,20 @@
 </div> 
 
 
+
+<footer>
+    &nbsp;&nbsp;&nbsp;
+    <a href="https://www.facebook.com/" target="_blank"><img src="Facebook_Logo_Primary.png" alt="facebookiin" style="width:40px;height:40px;"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/" target="_blank"><img src="Instagram_Glyph_Gradient.png" alt="instaramiin" style="width:40px;height:40px;"></a>
+    <div id="alatunniste">
+    &copy; 2025 Soile</div>
+</footer>
+
+
 <script>
 let slideIndex = 1;
-let slideTimer; // Store timer so we can reset it on manual navigation
+let slideTimer; 
 
 function showSlides(n) {
   let slides = document.getElementsByClassName("mySlides");
@@ -98,7 +109,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 
-  // Restart automatic slide transition after manual action
   clearTimeout(slideTimer);
   slideTimer = setTimeout(() => plusSlides(1), 3000);
 }
@@ -114,19 +124,6 @@ function currentSlide(n) {
 // Start automatic slideshow
 showSlides(slideIndex);
 </script>
-
-
-
-
-<footer>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://www.facebook.com/" target="_blank"><img src="Facebook_Logo_Primary.png" alt="facebookiin" style="width:40px;height:40px;"></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/" target="_blank"><img src="Instagram_Glyph_Gradient.png" alt="instaramiin" style="width:40px;height:40px;"></a>
-    <div id="alatunniste">
-    &copy; 2025 Soile</div>
-</footer>
-
 
 <script>
 function myFunction() {
